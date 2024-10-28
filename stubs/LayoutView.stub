@@ -1,0 +1,9 @@
+@props(['page'])
+
+<x-layouts.base>
+    {{-- Header Here --}}
+
+    <x-frontend-builder::page-blocks :blocks="$page->blocks" />
+
+     {{-- Footer Here --}}
+</x-layouts.base>

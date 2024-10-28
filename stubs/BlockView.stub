@@ -1,0 +1,11 @@
+@props([
+	"container" => null,
+])
+
+<x-layouts.container
+        :padding-top="$container['paddingTop'] ?? 'md'"
+        :padding-bottom="$container['paddingBottom'] ?? 'md'"
+        :max-content-width="$container['maxContentWidth'] ?? '7xl'"
+>
+    //
+</x-layouts.container>
